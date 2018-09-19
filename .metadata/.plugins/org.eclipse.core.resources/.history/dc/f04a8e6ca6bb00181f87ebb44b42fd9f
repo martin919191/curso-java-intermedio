@@ -1,0 +1,12 @@
+package program;
+
+import entities.Bird;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Flyer b = new Bird();
+		b.fly();
+	}
+
+}

@@ -1,0 +1,13 @@
+package program;
+
+import entities.Bird;
+import interfaces.Flyer;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Flyer b = new Bird();
+		b.land();
+	}
+
+}

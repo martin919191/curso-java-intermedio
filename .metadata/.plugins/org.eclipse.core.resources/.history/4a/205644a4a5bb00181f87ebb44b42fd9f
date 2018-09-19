@@ -1,0 +1,14 @@
+package entities;
+
+public class Plane extends Vehicle{
+	int maxAltitude;
+
+	public int getMaxAltitude() {
+		return maxAltitude;
+	}
+
+	public void setMaxAltitude(int maxAltitude) {
+		this.maxAltitude = maxAltitude;
+	}
+	
+}

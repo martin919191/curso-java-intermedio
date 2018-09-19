@@ -1,0 +1,16 @@
+package program;
+
+import entities.Bird;
+import entities.Plane;
+import interfaces.Flyer;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Flyer f = new Plane();
+		
+		Bird b = (Bird)f;
+		f.land();
+	}
+
+}

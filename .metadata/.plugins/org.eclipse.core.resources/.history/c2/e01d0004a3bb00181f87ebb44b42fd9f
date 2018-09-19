@@ -1,0 +1,6 @@
+package entities;
+
+public class Plane extends Vehicle{
+	int maxAltitude;
+	
+}
