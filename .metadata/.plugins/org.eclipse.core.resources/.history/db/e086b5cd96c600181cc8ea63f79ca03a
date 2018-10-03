@@ -1,0 +1,10 @@
+package ejemplodaofactory_program;
+
+import ejemplodaofactory.*;
+
+public class Program {
+	public static void main(String[] args) {
+		InterfazDAO dao = new ClaseDAODB();
+		dao.write();
+	}
+}

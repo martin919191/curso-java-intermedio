@@ -1,0 +1,11 @@
+package ejemplosingleton;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		//EjemploSingleton e1 = new EjemploSingleton();
+		EjemploSingleton e;
+	}
+
+}

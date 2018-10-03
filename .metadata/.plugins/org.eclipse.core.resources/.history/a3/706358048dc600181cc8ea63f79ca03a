@@ -1,0 +1,9 @@
+package ejemplosingleton;
+
+public class EjemploSingleton {
+	static EjemploSingleto instance;
+	
+	private EjemploSingleton(){
+		
+	}
+}

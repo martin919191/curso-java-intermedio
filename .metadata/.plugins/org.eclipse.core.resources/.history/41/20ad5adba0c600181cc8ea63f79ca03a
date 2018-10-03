@@ -1,0 +1,6 @@
+package genericos;
+
+public class Program {
+	CacheAny c1 = new CacheAny();
+	
+}

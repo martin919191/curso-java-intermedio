@@ -1,0 +1,9 @@
+package ejemplosingleton;
+
+public class EjemploSingleton {
+	String nombre;
+	
+	private EjemploSingleton(){
+		
+	}
+}

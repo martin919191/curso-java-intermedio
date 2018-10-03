@@ -1,0 +1,7 @@
+package genericos;
+
+public class CacheAny <T> {
+	private T value;
+	
+	public void setValue()
+}

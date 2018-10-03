@@ -1,0 +1,5 @@
+package ejemplodaofactory;
+
+public class ClaseDAODB implements InterfazDAO{
+
+}

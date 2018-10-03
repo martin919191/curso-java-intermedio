@@ -1,7 +1,0 @@
-package entities;
-
-public class Bird extends Animal implements Flyer{
-	public void sing(){
-		System.out.println("Estoy cantando ♪ ♫ ♩ ♬ ♭ ♮ ♯");
-	}
-}

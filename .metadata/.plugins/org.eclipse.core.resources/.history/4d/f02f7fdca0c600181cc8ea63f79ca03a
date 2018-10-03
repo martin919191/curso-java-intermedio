@@ -1,0 +1,11 @@
+package genericos;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		CacheAny c1 = new CacheAny();
+		c1.setValue("Hola");
+	}
+	
+	
+}

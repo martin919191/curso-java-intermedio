@@ -1,0 +1,13 @@
+package ejemplosingleton;
+
+public class EjemploSingleton {
+	
+	static EjemploSingleton instance = null;
+	
+	public static getInstance(){
+		
+	}
+	
+	private EjemploSingleton(){
+	}
+}

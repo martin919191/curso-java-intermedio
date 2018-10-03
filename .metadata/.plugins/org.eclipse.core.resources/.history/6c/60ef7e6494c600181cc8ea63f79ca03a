@@ -1,0 +1,11 @@
+package ejemplodaofactory;
+
+public class ClaseDAODB implements InterfazDAO{
+	public void read(){
+		
+	}
+	
+	public void write(){
+		
+	}
+}

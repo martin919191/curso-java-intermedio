@@ -1,0 +1,9 @@
+package ejemplodaofactory;
+
+public class ClaseDAOFactory {
+	public InterfazDAO createInstance(){
+		InterfazDAO instance = null;
+		
+		return instance;
+	}
+}

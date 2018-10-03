@@ -1,0 +1,15 @@
+package ejemplosingleton;
+
+public class EjemploSingleton {
+	
+	static EjemploSingleton instance = null;
+	
+	public String texto = "";
+	
+	public static EjemploSingleton getInstance(){
+		return instance;
+	}
+	
+	private EjemploSingleton(){
+	}
+}
