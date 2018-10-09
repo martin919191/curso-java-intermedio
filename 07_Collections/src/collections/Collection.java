@@ -1,8 +1,8 @@
 package collections;
 
-public interface Collection {
+public interface Collection<E> {
 	
-	public <E> boolean add(E e);
+	public boolean add(E e);
 	
 	public boolean remove(Object o);
 	
