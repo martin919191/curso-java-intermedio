@@ -29,12 +29,12 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public int size() {
-		// TODO Auto-generated method stub
+		// TODO DAVID
 		return 0;
 	}
 
 	public boolean esEmpty() {
-		// TODO Auto-generated method stub
+		// TODO DAVID
 		return false;
 	}
 
@@ -49,12 +49,12 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public E remove(int index) {
-		// TODO Auto-generated method stub
+		// TODO MATÍAS
 		return null;
 	}
 
 	public E get(int index) {
-		// TODO Auto-generated method stub
+		// TODO MATÍAS
 		return null;
 	}
 
