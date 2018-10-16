@@ -42,8 +42,12 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public boolean esEmpty() {
-		// TODO DAVID
+		if (array == null || array.length== 0){
+			return true;
+		} 
 		return false;
+		
+		
 	}
 
 	public boolean contains(Object o) {
