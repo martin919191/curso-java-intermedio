@@ -24,9 +24,7 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public boolean remove(Object o) {
-			
-		
-		
+
 		return false;
 	}
 
@@ -42,32 +40,57 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public boolean esEmpty() {
-		if (array == null || array.length== 0){
+		if (array == null || array.length == 0) {
 			return true;
-		} 
+		}
 		return false;
-		
-		
+
 	}
 
 	public boolean contains(Object o) {
-		// TODO Auto-generated method stub
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == o) {
+				return true;
+			}
+
+		}
+
 		return false;
 	}
 
 	public boolean add(int idex, Object e) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 
 	public E remove(int index) {
-		// TODO MATÃ�AS
-		return null;
+		Object r=null;
+		int i=0;
+		if(array!=null && index<array.length){
+			
+			for(i=0;i<array.length;i++){
+				int b=0;
+				Object[] newArray;
+				newArray = new Object[b];
+				
+				newArray[b] = array[i];
+			}
+		} else{
+			r=array[i];
+		}
+		if (r == null){
+			return null;
+		} else{
+			return (E)r;	
+		}
+		
+	
 	}
 
 	public E get(int index) {
-		// TODO MATÃ�AS
+		
 		return null;
+		
 	}
 
 	public Object set(int index, Object e) {
