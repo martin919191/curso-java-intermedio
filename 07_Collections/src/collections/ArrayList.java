@@ -64,13 +64,33 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public E remove(int index) {
-		// TODO MATÃ�AS
-		return null;
+		Object r=null;
+		int i=0;
+		if(array!=null && index<array.length){
+			
+			for(i=0;i<array.length;i++){
+				int b=0;
+				Object[] newArray;
+				newArray = new Object[b];
+				
+				newArray[b] = array[i];
+			}
+		} else{
+			r=array[i];
+		}
+		if (r == null){
+			return null;
+		} else{
+			return (E)r;	
+		}
+		
+	
 	}
 
 	public E get(int index) {
-		// TODO MATÃ�AS
+		
 		return null;
+		
 	}
 
 	public Object set(int index, Object e) {
