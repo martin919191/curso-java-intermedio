@@ -79,5 +79,13 @@ public class ArrayList<E> implements List<E> {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+	@Override
+	public String toString() {
+		String s ="";
+		for(Object e: array)
+			s+=e+",";
+		return s;
+	}
 
 }
