@@ -24,13 +24,21 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public boolean remove(Object o) {
-		// TODO Auto-generated method stub
+			
+		
+		
 		return false;
 	}
 
 	public int size() {
-		// TODO DAVID
-		return 0;
+		if (array == null) {
+			return 0;
+
+		} else {
+			return array.length;
+
+		}
+
 	}
 
 	public boolean esEmpty() {
@@ -49,12 +57,12 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public E remove(int index) {
-		// TODO MATÍAS
+		// TODO MATÃ�AS
 		return null;
 	}
 
 	public E get(int index) {
-		// TODO MATÍAS
+		// TODO MATÃ�AS
 		return null;
 	}
 
