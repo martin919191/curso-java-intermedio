@@ -24,9 +24,7 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public boolean remove(Object o) {
-			
-		
-		
+
 		return false;
 	}
 
@@ -42,21 +40,26 @@ public class ArrayList<E> implements List<E> {
 	}
 
 	public boolean esEmpty() {
-		if (array == null || array.length== 0){
+		if (array == null || array.length == 0) {
 			return true;
-		} 
+		}
 		return false;
-		
-		
+
 	}
 
 	public boolean contains(Object o) {
-		// TODO Auto-generated method stub
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == o) {
+				return true;
+			}
+
+		}
+
 		return false;
 	}
 
 	public boolean add(int idex, Object e) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 
