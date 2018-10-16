@@ -66,17 +66,22 @@ public class ArrayList<E> implements List<E> {
 	public E remove(int index) {
 		Object r=null;
 		int i=0;
+		Object[] newArray;
+		
 		if(array!=null && index<array.length){
-			
+			newArray = new Object[array.length-1];
+			int b=0;
 			for(i=0;i<array.length;i++){
-				int b=0;
-				Object[] newArray;
-				newArray = new Object[b];
+				if(i!=index){
+					newArray[b] = array[i];
+					b++;
+				}else{
+					r=array[i];
+				}
 				
-				newArray[b] = array[i];
 			}
-		} else{
-			r=array[i];
+			
+			array = newArray;
 		}
 		if (r == null){
 			return null;
