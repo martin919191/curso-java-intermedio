@@ -25,7 +25,27 @@ public class ArrayList<E> implements List<E> {
 
 	public boolean remove(Object o) {
 
-		return false;
+		boolean retorno=false;
+		if(o!=null && array.length>0)
+		{
+			Object[] newarray=new Object[array.length-1];
+			
+			int b=0;
+			
+				for(int i=0;i<array.length;i++){
+				
+					if(array[i]!=o)
+					{
+						b++;
+						newarray[b]=array[i];
+					}
+					
+				
+				}
+				retorno=true;
+				array=newarray;
+		}
+		return retorno;
 	}
 
 	public int size() {
